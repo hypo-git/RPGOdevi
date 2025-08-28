@@ -40,6 +40,10 @@ public class Main {
 
                     break;
                 case 3:
+                    if (manager.player == null){
+                        System.out.println("Önce karakter oluşturmanız gerekiyor!");
+                        break;
+                    }
                     System.out.println(manager.player.toString());
                     break;
                 case 4:
